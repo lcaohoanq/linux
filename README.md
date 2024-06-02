@@ -117,9 +117,25 @@
     > sudo shutdown -P +10 (10mins)
   - exit : Exit terminal
 
+- Advanced command
+  - chmod [arguement] : give a file specific permission
+    - +x : can executable
+    - 777 : give all permission (do not recommend to use)
+    - 400 : read only
+
 ## 2. [Linux Desktop Environment]
 
 - Gnome
 - KDE
 - XFCE
 - LXDE
+
+## 3. [Some cool CLI tools]
+- Ref: https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6
+> My favorite:
+- htop
+- btop
+- ranger
+- byobu terminal
+- neofetch
+- zoxide
