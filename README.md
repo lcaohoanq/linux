@@ -1,5 +1,3 @@
-# Hi this repo is a diary of my path learning and using Linux
-
 ## 1. [Linux Basics]
 
 - Most use command:
