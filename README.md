@@ -179,4 +179,7 @@ ibus-setup
 
 - Adjust the Ibus-Preferences auto-start
 
+![image](https://github.com/lcaohoanq/My-Linux-Experience/assets/136492579/c05e7ec4-f37f-4c7d-b525-2962b33001a2)
+
+
 
