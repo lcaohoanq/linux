@@ -276,7 +276,13 @@ This is the fsck order. It specifies the order in which filesystem checks are do
 ```bash
 # apply without rebooting
 sudo mount -a
+# If meet any error about no mount directory found, just need to reboot
 
 # verify mounting
 df -h
+
+# or (sudo apt install duf) for more colorful ^^
+duf
 ```
+![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/71e2488b-0f99-49db-9884-723c93bcd221)
+
