@@ -50,7 +50,23 @@
       tree -I "node_modules" -D
     ```
 - Other
+  - fzf: cool find file tools
+    ```bash  
+      # install
+      sudo apt install fzf
 
+      fzf
+      __________________
+      > index.js
+
+      # preview the file content
+      fzf --preview='cat {}'
+      __________________
+      > index.js
+    
+      # preview and open in neovim
+      nvim $(fzf --preview='cat {}')
+    ```
   - htop : System monitor
 
 - Most use command:
