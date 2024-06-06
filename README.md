@@ -35,6 +35,20 @@
     - Ctrl + O : Save
   - unzip : Unzip files
     > unzip file.zip
+  - tree: show the current directory with the tree visualization
+    ```bash
+      # show everything
+      tree
+
+      # show directories only
+      tree -D
+
+      # show directories except the pattern
+      tree -I "node_modules"
+
+      # show except the pattern, directories only
+      tree -I "node_modules" -D
+    ```
 - Other
 
   - htop : System monitor
