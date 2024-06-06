@@ -1,149 +1,60 @@
 ## 1. [Linux Basics]
 
-- Most use command:
-  - cd : Change directory
-    > cd /home/user
-    > cd ~
-    > cd ..
-  - ls : List files and directories
-    > ls
-    > ls -l | ls -al
-    > ls -a
-  - pwd : Print working directory
-  - cat
-    > cat file.txt
-  - cp : Copy files and directories
-    > cp file.txt file2.txt
-    > cp -r dir1 dir2
-    > cp \* /usr/share/.fonts
-  - mv : Move files and directories
-    > mv file.txt /usr/share/.fonts
-    > mv file.txt file2.txt
-    > mv \* /usr/share/.fonts
-  - rm : Remove files and directories
-    > rm file.txt
-    > rm -r dir1
-    > rm -rf dir1
-  - mkdir : Make directories
-  - echo : write text to file
-    > echo "Hello World" > file.txt
-  - touch : Create file
-    > touch file.txt
-  - nano : Text editor
-    > nano file.txt
-    - Ctrl + X : Exit
-    - Ctrl + O : Save
-  - unzip : Unzip files
-    > unzip file.zip
-  - tree: show the current directory with the tree visualization
+<details>
+  <summary>Most used commands:</summary>
+
+  - **cd** : Change directory
+    - `cd /home/user`
+    - `cd ~`
+    - `cd ..`
+  - **ls** : List files and directories
+    - `ls`
+    - `ls -l` | `ls -al`
+    - `ls -a`
+  - **pwd** : Print working directory
+  - **cat**
+    - `cat file.txt`
+  - **cp** : Copy files and directories
+    - `cp file.txt file2.txt`
+    - `cp -r dir1 dir2`
+    - `cp * /usr/share/.fonts`
+  - **mv** : Move files and directories
+    - `mv file.txt /usr/share/.fonts`
+    - `mv file.txt file2.txt`
+    - `mv * /usr/share/.fonts`
+  - **rm** : Remove files and directories
+    - `rm file.txt`
+    - `rm -r dir1`
+    - `rm -rf dir1`
+  - **mkdir** : Make directories
+  - **echo** : Write text to file
+    - `echo "Hello World" > file.txt`
+  - **touch** : Create file
+    - `touch file.txt`
+  - **nano** : Text editor
+    - `nano file.txt`
+    - `Ctrl + X` : Exit
+    - `Ctrl + O` : Save
+  - **unzip** : Unzip files
+    - `unzip file.zip`
+  - **tree** : Show the current directory with the tree visualization
     ```bash
-      # show everything
-      tree
+    # show everything
+    tree
 
-      # show directories only
-      tree -D
+    # show directories only
+    tree -D
 
-      # show directories except the pattern
-      tree -I "node_modules"
+    # show directories except the pattern
+    tree -I "node_modules"
 
-      # show except the pattern, directories only
-      tree -I "node_modules" -D
+    # show except the pattern, directories only
+    tree -I "node_modules" -D
     ```
-- Other
-  - fzf: cool find file tools
-    ```bash  
-      # install
-      sudo apt install fzf
-
-      fzf
-      __________________
-      > index.js
-
-      # preview the file content
-      fzf --preview='cat {}'
-      __________________
-      > index.js
-    
-      # preview and open in neovim
-      nvim $(fzf --preview='cat {}')
-    ```
-  - htop : System monitor
-
-- Most use command:
-  - sudo : Super User Do
-    > sudo apt-get install package
-  - apt-get : Package manager
-    > apt-get update
-    > apt-get upgrade
-    > apt-get install package
-    > apt-get remove package
-  - dpkg : Debian package manager
-    > dpkg -i package.deb
-    > dpkg -r package
-  - systemctl : System and service manager
-    > systemctl start service
-    > systemctl stop service
-    > systemctl restart service
-    > systemctl status service
-    > systemctl enable service
-    > systemctl disable service
-  - ps : Process status
-    > ps
-    > ps -aux
-  - kill : Kill process
-    > kill PID
-    > kill -9 PID
-  - top : System monitor
-  - df : Disk free
-    > df
-    > df -h
-  - du : Disk usage
-    > du
-    > du -h
-  - free : Memory usage
-    > free
-    > free -h
-  - ifconfig : Network configuration
-    > ifconfig
-  - ping : Test network connection
-    > ping google.com
-  - wget : Download files
-    > wget file.zip
-  - tar : Archive files
-    > tar -cvf file.tar file
-    > tar -xvf file.tar
-  - gzip : Compress files
-    > gzip file
-    > gunzip file.gz
-  - find : Find files
-    > find / -name file.txt
-  - grep : Search text
-    > grep "text" file.txt
-  - chmod : Change file permissions
-    > chmod 777 file.txt
-  - chown : Change file owner
-    > chown user:group file.txt
-  - passwd : Change user password
-    > passwd user
-  - useradd : Add user
-    > useradd user
-  - userdel : Delete user
-    > userdel user
-  - groupadd : Add group
-    > groupadd group
-  - groupdel : Delete group
-    > groupdel group
-  - crontab : Schedule tasks
-    > crontab -e
-  - history : Command history
-    > history
-  - clear : Clear terminal
-  - reboot : Reboot system
-    > sudo reboot
-  - shutdown : Shutdown system
-    > sudo shutdown -h now
-    > sudo shutdown -P +10 (10mins)
-  - exit : Exit terminal
+  - **sudo reboot** : Reboot system
+  - **sudo shutdown -h now** : Shutdown immediately
+  - **sudo shutdown -P +10** : (10mins)
+</details>
 
 - Advanced command
   - chmod [arguement] : give a file specific permission
@@ -161,12 +72,34 @@
 ## 3. [Some cool CLI tools]
 - Ref: https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6
 > My favorite:
-- htop
-- btop
-- ranger
-- byobu terminal
 - neofetch
-- zoxide
+- `htop` : System monitor
+![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/6e0d930b-4923-40c7-a77c-139ccf462c0a)
+- `btop` : Same as htop but look prettier
+![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/b6792e97-f792-412b-9459-757921ba3805)
+- `ranger` : GUI terminal file navigation
+![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/55fcb569-c56c-458b-9587-3b85b6f653f7)
+- `duf` : better `du`
+![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/b016e577-4caf-4249-ad8d-c19d5b0fc227)
+- `byobu` : more enhancements of tmux
+- `zoxide` : better `cd`
+- `fzf`: cool find file tools
+  ```bash  
+    # install
+    sudo apt install fzf
+
+    fzf
+    __________________
+    > index.js
+
+    # preview the file content
+    fzf --preview='cat {}'
+    __________________
+    > index.js
+  
+    # preview and open in neovim
+    nvim $(fzf --preview='cat {}')
+  ```
 
 ## 4. [Useful configuration]
 - Change trackpoint sensitivity
