@@ -264,7 +264,7 @@ This is the fsck order. It specifies the order in which filesystem checks are do
 
 ![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/969fb8db-5ef8-4acf-b2d4-0042d2d77dbb)
 
-## 5. Apply change
+### 5. Apply change
 
 ```bash
 # apply without rebooting
@@ -279,3 +279,151 @@ duf
 ```
 ![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/71e2488b-0f99-49db-9884-723c93bcd221)
 
+## 7.[Some app install recommendation]
+### Package manager
+```bash
+# snap
+sudo apt install snapd
+
+# flatpak: https://flathub.org/
+sudo apt install flatpak
+
+# Gnome
+sudo apt install gnome-software-plugin-flatpak
+
+# KDE
+sudo apt install plasma-discover-backend-flatpak
+
+# Add the Flathub repository
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+```
+### Apps, Tools
+- vscode
+- intellij ultimate
+- vlc
+- mongodb, azure, mysql
+- chrome
+- spotify
+- bruno, postman, insomnia
+  
+- git
+```bash
+sudo apt install git
+git --version 
+```
+- nodejs
+```bash
+sudo apt install curl 
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
+node -v
+
+# node latest
+nvm install node
+
+# specify the version
+nvm install 18.18.0
+
+# if meet nvm command not found 
+source ~/.nvm/nvm.sh
+
+# show all node version installed
+nvm list
+
+# choose your version
+nvm use 12.7.0
+```
+
+- byobu
+```bash
+sudo apt install byobu
+```
+
+- maven
+```bash
+sudo apt-get install maven
+```
+
+- jdk
+~ later
+
+## 8.[Nvidia Graphics Card]
+
+```bash
+sudo add-apt-repository contrib
+sudo add-apt-repository non-free
+sudo apt update
+sudo apt install nvidia-detect
+nvidia-detect
+sudo apt install nvidia-driver
+```
+
+## 9.[Terminal Customization]
+1. Install Nerd-Fonts
+
+- I'm prefer the 0xProto, Hack, Jetbrains Mono, Fira Code (...Nerd Fonts)
+- https://www.nerdfonts.com/font-downloads
+  
+```bash
+wget https://github.com/tonsky/FiraCode/releases/download/6.2/Fira_Code_v6.2.zip
+
+# Install fonts on per-user or system-wide?
+# System-Wide Font Installation
+
+sudo mkdir /usr/share/fonts/fira-code
+sudo mv *.ttf /usr/share/fonts/fira-code/
+
+# Regenerate font cache
+sudo fc-cache -f -v
+
+# Verify
+fc-list | grep "Fira"
+```
+
+2. Apply the "randomly" bashshell customize of other guys
+
+- https://www.linuxfordevices.com/tutorials/linux/beautify-bash-shell
+
+```bash
+git clone --recursive https://github.com/andresgongora/synth-shell.git
+
+cd synth-shell
+
+sudo chmod +x setup.sh
+
+./setup.sh
+
+# Yes for all~
+
+# Any edit
+nano ~/.bashrc
+```
+
+> Finnaly, we have such a pretty terminal
+
+![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/bf1aa720-aa94-420a-a73a-7efd895bfd02)
+
+## 10.[Github-SSH key]
+- https://docs.github.com/fr/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+```bash
+mkdir ~/.ssh
+
+# or i have my own .ssh key, i have create before
+cp .ssh/ /home/lcaohoanq/.ssh/ -r
+
+# Ensure ssh-agent is enabled
+# The command starts the ssh-agent in the background
+eval "$(ssh-agent -s)"
+
+ssh-add id_xxxxx
+
+# If meet the key are too open
+chmod 400 /home/lcaohoanq/.ssh/id_xxxxx
+
+# If meet permission denied when ssh-add
+sudo chown lcaohoanq:lcaohoanq ~/.ssh/id_xxxxx
+
+# Verify
+ssh -T git@github.com
+```
+
+## 11.[Nvim]
