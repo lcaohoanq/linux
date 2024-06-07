@@ -100,6 +100,36 @@
     # preview and open in neovim
     nvim $(fzf --preview='cat {}')
   ```
+- `ytfzf`: playing youtube video with terminal
+  - ref: https://www.makeuseof.com/watch-youtube-videos-in-linux-terminal/
+  ```bash
+  # Installation
+  sudo apt install jq curl mpv fzf
+
+  # re-install mpv if at the end you can not stream the video
+  sudo apt install snapd
+  sudo snap install mpv
+  
+  sudo apt install ueberzug
+
+  # clone the repo
+  git clone git@github.com:pystardust/ytfzf.git
+  
+  cd ytfzf
+  
+  sudo make install
+  sudo make install doc
+  sudo make addons
+  ```
+
+  ```bash
+  # choose the first video and stream it
+  ytfzf -a slay! phonk
+
+  # show the list of options to choose 
+  ytfzf -t
+  > Linux
+  ```
 
 ## 4. [Useful configuration]
 - Change trackpoint sensitivity
