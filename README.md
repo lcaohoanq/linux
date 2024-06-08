@@ -465,6 +465,10 @@ ssh -T git@github.com
 
 ## 12. [Docker]
 > https://docs.docker.com/desktop/install/debian/
+
+- Bug:
+  - https://www.xda-developers.com/how-enable-systemd-in-wsl/ 
+
 ### Docker Desktop
 
 ```bash
