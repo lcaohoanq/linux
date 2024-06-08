@@ -467,7 +467,8 @@ ssh -T git@github.com
 > https://docs.docker.com/desktop/install/debian/
 
 - Bug:
-  - https://www.xda-developers.com/how-enable-systemd-in-wsl/ 
+  - https://www.xda-developers.com/how-enable-systemd-in-wsl/
+  - https://stackoverflow.com/questions/72528606/docker-rancher-permission-denied-when-using-docker-from-wsl
 
 ### Docker Desktop
 
