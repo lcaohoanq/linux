@@ -299,12 +299,43 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 ```
 ### Apps, Tools
 - vscode
+```bash
+sudo snap install code --classic
+```
+
 - intellij ultimate
+```bash
+sudo snap install intellij-idea-ultimate --classic
+```
+
 - vlc
-- mongodb, azure, mysql
+```bash
+flatpak install flathub org.videolan.VLC
+```
+  
+- mongodb
+```bash
+flatpak install flathub com.mongodb.Compass
+```
+
+- azure, mysql
+  
 - chrome
+```bash
+flatpak install flathub com.google.Chrome
+```
+
 - spotify
+```bash
+flatpak install flathub com.spotify.Client
+```
+
 - bruno, postman, insomnia
+```bash
+flatpak install flathub com.usebruno.Bruno
+flatpak install flathub com.getpostman.Postman
+flatpak install flathub rest.insomnia.Insomnia
+```
   
 - git
 ```bash
