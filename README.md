@@ -307,6 +307,10 @@ sudo snap install code --classic
 ```bash
 sudo snap install intellij-idea-ultimate --classic
 ```
+- netbeans
+```bash
+flatpak install flathub org.apache.netbeans
+```
 
 - vlc
 ```bash
