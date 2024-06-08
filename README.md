@@ -116,10 +116,29 @@
   git clone git@github.com:pystardust/ytfzf.git
   
   cd ytfzf
+
+  sudo apt install make
   
   sudo make install
   sudo make install doc
   sudo make addons
+  ```
+
+  - config
+  ```bash
+  sudo mkdir ~/.config/ytfzf
+  cd ~/.config/ytfzf
+  touch conf.sh
+  nano conf.sh
+  # the content in file
+  video_pref="bestvideo[height<=?720][fps<=?30]"
+  audio_pref='bestaudio/audio'
+  is_detach=yes
+  thumbnail_viewer='kitty'
+  skip_thumb_download=no
+  enable_back_button=yes
+  enable_hist=no
+  enable_submenus=yes
   ```
 
   ```bash
@@ -434,6 +453,53 @@ nano ~/.bashrc
 ```
 
 > Finnaly, we have such a pretty terminal
+
+3. Some Cool Terminal Emulator
+- byobu:
+```bash
+sudo apt install byobu
+
+# /usr/bin/byobu
+
+# F2: create a new tab
+# Alt + (Left|Right) Arrow : Loop through current tab
+# Shift + F2: split terminal horizontally
+# Ctrl + F2: split terminal vertically
+# Shift F3 | Shift F4: Loop through each splited terminal in one window
+```
+
+- kitty:
+```bash
+sudo apt instal kitty
+
+whereis kitty
+# /usr/bin/kitty
+
+# Tab Management
+- **Ctrl + Shift + T**: create a new tab
+- **Ctrl + Shift + Q**: close current tab
+- **Ctrl + Shift + Page Up | Page Down**: navigate between tabs
+
+# Window Management
+- **Ctrl + Shift + Enter**: create a new window
+- **Ctrl + Shift + W**: close window
+- **Ctrl + Shift + Left | Right**: navigate between windows
+
+# Layout Management
+- **Ctrl + Shift + D**: split window vertically
+- **Ctrl + Shift + E**: split window horizontally
+- **Ctrl + Shift + Alt + Left | Right**: resize horizontal split
+- **Ctrl + Shift + Alt + Up | Down**: resize vertical split
+
+# Scrollback Buffer
+- **Ctrl + Shift + Up**: scroll up
+- **Ctrl + Shift + Down**: scroll down
+- **Ctrl + Shift + F**: search in scrollback
+
+# Clipboard Operations
+- **Ctrl + Shift + C**: copy to clipboard
+- **Ctrl + Shift + V**: paste from clipboard
+```
 
 ![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/bf1aa720-aa94-420a-a73a-7efd895bfd02)
 
