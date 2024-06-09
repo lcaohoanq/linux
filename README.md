@@ -128,9 +128,11 @@
   ```bash
   sudo mkdir ~/.config/ytfzf
   cd ~/.config/ytfzf
-  touch conf.sh
-  nano conf.sh
-  # the content in file
+  sudo nano conf.sh
+  ```
+  - the content in file
+
+  ```bash
   video_pref="bestvideo[height<=?720][fps<=?30]"
   audio_pref='bestaudio/audio'
   is_detach=yes
@@ -150,6 +152,11 @@
   > Linux
   ```
 
+  - remap the key
+  ```bash
+  echo "alias yt='ytfzf - t'" >> ~/.bashrc
+  source ~/.bashrc
+  ```
 ## 4. [Useful configuration]
 - Change trackpoint sensitivity
 ```bash
