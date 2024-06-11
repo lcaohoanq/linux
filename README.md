@@ -165,7 +165,7 @@
   ```bash
   sudo apt install kwin-bismuth
   ```
-  - Enable the below options
+  - Enable the below options and do a little adjust from default **Meta + F8** to **Meta + Tab** at Shhow Desktop Grid
 
 ![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/c19c2d7f-fa1d-43f4-91f5-57590386c3bd)
 
@@ -189,7 +189,15 @@
 
   "xte 'keydown Alt_L' 'key Right' 'keyup Alt_L'"
   c:114  # Replace with actual keycode for the forward button
+
+  # Middle click
+  # Supper + Tab (Windows + Tab)
+  "xte 'keydown Alt_L' 'key Tab' 'keyup Alt_L'"
+  c:133
   ```
+
+![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/9d219525-1f1e-4f5c-b623-02f3742ea3ef)
+
 
   ```bash
   # Save and Close
