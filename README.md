@@ -451,6 +451,15 @@ sudo apt install byobu
 sudo apt-get install maven
 ```
 
+- obs
+```bash
+flatpak install flathub com.obsproject.Studio
+
+# fixed pipewire
+sudo apt install pipewire
+systemctl --user start pipewire 
+```
+
 - jdk
 ~ later
 
