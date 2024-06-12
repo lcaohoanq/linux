@@ -604,6 +604,30 @@ scrollback_lines 10000
 # URL handling
 detect_urls yes
 ```
+
+- **Config to run specify tab (nvim) with bash at startup**
+
+```bash
+nano ~/.config/kitty/my_kitty_session.conf
+```
+
+```bash
+# ~/.config/kitty/my_kitty_session.conf
+
+# First tab
+tab first_tab
+new_window bash
+
+# Second tab running Neovim
+tab second_tab
+new_window nvim
+```
+
+```bash
+# Include the session file
+include my_kitty_session.conf
+```
+
 - restart
 
 ### Setup Kitty terminal on WSL
