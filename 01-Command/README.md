@@ -31,7 +31,7 @@
     mv demo.txt test.txt
     # same as directory
     ```
-
+    
   - **rm** : Remove files and directories
     - `rm file.txt`
     - `rm -r dir1`
@@ -68,7 +68,7 @@
     # show except the pattern, directories only
     tree -I "node_modules" -D
     ```
-
+    
 - Power Management
 
 ```bash
@@ -84,7 +84,6 @@ sudo shutdown -h now
 # schedule shutdown after 10 mins
 sudo shutdown -P +10
 ```
-
 
 # 2. [Advanced command]
   - chmod [arguement] : give a file specific permission
