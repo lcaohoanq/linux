@@ -106,8 +106,28 @@ sudo apt install pipewire
 systemctl --user start pipewire 
 ```
 
-- Docker
-## 12. [Docker]
+## [Screen capture]
+- Defautl in KDE using Spectacle but it too anoying when capture and save image to clipboard that need to many steps, so i decided to use `Flameshot` for the alternative
+  
+- https://flameshot.org/
+  
+- Install
+```bash
+sudo apt-get install flameshot
+```
+
+- Using
+
+```bash
+flameshot gui
+```
+
+- Make a simple shortcut
+```bash
+echo "alias capture='flameshot gui'" >> ~/.bashrc
+```
+
+## [Docker]
 > https://docs.docker.com/desktop/install/debian/
 
 - Bug:
