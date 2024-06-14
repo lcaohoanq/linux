@@ -41,6 +41,9 @@ git clone https://github.com/LazyVim/starter ~/.config/nvim
 - Alt + j (Move the current line `down`)
 - Alt + k (Move the current line `up`)
 
+- dd: delete one line
+- u: undo ~ Ctrl + Z
+
 - :bprev
 - :bnext
 
