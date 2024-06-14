@@ -1,0 +1,9 @@
+# Monitor
+# check with xrandr
+xrandr --output HDMI-1 --right-of DP-1-8
+
+# Background
+feh --bg-fil /media/lcaohoanq/MULTIMEDIA/graphics/wallpaper/victrola-record-players.jpg
+
+# Terminal Transperant
+exec --no-startup-id compton --config ~/.config/compton.conf
