@@ -125,6 +125,8 @@ flameshot gui
 - Make a simple shortcut
 ```bash
 echo "alias capture='flameshot gui'" >> ~/.bashrc
+
+source ~/.bashrc
 ```
 
 ## [Docker]
