@@ -119,9 +119,7 @@ feh --bg-scale /media/lcaohoanq/MULTIMEDIA/graphics/wallpaper/MacOS/ipad/ipad-ai
 
 - Import to `bspwmrc`
 
-```
 ![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/4eb7fceb-318f-4675-972c-c070b1e872ba)
-```
 
 - Reload
 ```bash
