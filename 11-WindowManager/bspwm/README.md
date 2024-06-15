@@ -147,6 +147,12 @@ reloadbspwm #i have assigned the alias above
 rofi -show drun
 ```
 
+- Alias
+- <Super> + <Space>
+
+![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/b5372994-a221-43d3-8fa4-1f4897f43f01)
+
+
 # Wifi
 > nmcli (NetworkManager Command-Line Interface)
 
@@ -162,3 +168,80 @@ nmcli device wifi connect SSID password PASSWORD
 - Replace SSID and PASSWORD with the actual SSID and password of the network you want to connect to.
 
 ![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/c515b322-ac15-4b16-ba69-64417b965885)
+
+# Bluetooth
+
+## 1. GUI
+
+```bash
+sudo apt-get install blueman  
+```
+
+- Usage
+
+```bash
+blueman-manager
+```
+
+- Alias with `bluetooth`
+```bash
+echo "alias bluetooth='blueman-manager'" >> ~/.bashrc
+```
+
+![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/4b47058c-daf7-480a-9e14-47a019fbc829)
+
+## 2. Terminal
+
+# Sound
+- Map the knob keyboard to change volumn
+- Detect by `xev`
+  - Increase volumn is `123`
+  - Decrease `122`
+  - Mute `121`
+  
+- Once you have identified the knob input, you can configure BSPWM's sxhkd to respond to this input by adjusting the volume using `pactl`, `amixer`, or any other volume control tool.
+- Install
+
+```bash
+sudo apt-get install pamixer
+```
+
+```sh
+# Sound control on keyboard
+# Volume up
+XF86AudioRaiseVolume
+    pamixer -i 5
+
+# Volume down
+XF86AudioLowerVolume
+    pamixer -d 5
+
+# Mute/unmute
+XF86AudioMute
+    pamixer -t
+```
+
+![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/e0d8af2f-89c4-4eb3-9657-f88473b02ffc)
+
+
+## 1. GUI
+
+- PulseAudio Volume Control (pavucontrol):
+
+```bash
+sudo apt-get install pavucontrol
+```
+
+- Usage
+
+```bash
+pavucontrol
+```
+
+- Alias
+
+```bash
+echo "alias sound='pavucontrol'" >> ~/.bashrc
+``
+
+## 2. Terminal
