@@ -157,6 +157,26 @@ corner-radius = 15.0;
 - Reload
 
 # Polybar
+> https://github.com/adi1090x/polybar-themes.git
+
+```bash
+git clone https://github.com/adi1090x/polybar-themes.git
+cd polybar-themes
+chmod +x setup.sh
+```
+
+- List options
+```bash
+bash ~/.config/polybar/launch.sh
+```
+
+- Usage
+```bash
+bash ~/.config/polybar/launch.sh --panels
+```
+
+![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/9ccff217-2eca-4648-bd0b-99e65137d75a)
+
 
 # Rofi
 > https://github.com/w8ste/Tokyonight-rofi-theme
