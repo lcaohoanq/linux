@@ -128,6 +128,34 @@ reloadbspwm #i have assigned the alias above
 
 # Compton vs Picom
 
+- Adjust the current window style
+
+## 1. Compton
+
+## 2. Picom
+
+- Install
+
+```bash
+sudo apt-get install picom
+```
+
+```bash
+nvim ~/.config/picom.conf
+```
+
+```bash
+# Enable the experimental feature to round window corners
+experimental-backends = true;
+
+# Set the corner radius (in pixels)
+corner-radius = 15.0;
+```
+
+![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/9399161e-7a8f-4dff-bd96-f9ad32b1279b)
+
+- Reload
+
 # Polybar
 
 # Rofi
