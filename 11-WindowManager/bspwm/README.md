@@ -126,6 +126,35 @@ feh --bg-scale /media/lcaohoanq/MULTIMEDIA/graphics/wallpaper/MacOS/ipad/ipad-ai
 reloadbspwm #i have assigned the alias above
 ```
 
+# Lockscreen background
+- Install
+```bash
+sudo apt install lightdm lightdm-gtk-greeter
+```
+- Set `lightdm` as default display manager 
+
+```bash
+sudo dpkg-reconfigure lightdm
+```
+
+- Change the background of [greeter]
+```bash
+sudo nvim /etc/lightdm/lightdm-gtk-greeter.conf
+```
+
+```bash
+[greeter]
+background=/path/to/your/wallpaper.jpg
+```
+
+![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/005ada7d-ea5c-44a4-aa55-c4ab1c037c16)
+
+- After done, reload lightdm
+
+```bash
+sudo systemctl restart lightdm
+```
+
 # Compton vs Picom
 
 - Adjust the current window style
