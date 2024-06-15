@@ -100,6 +100,33 @@ echo "alias reloadbspwm='bspc wm -r'" >> ~/.bashrc
 ```bash
 sudo apt install feh
 ```
+- Create `set_background.sh` to `~/.config/bspwm` 
+
+```bash
+nvim ~/.config/bspwm/set_background.sh
+```
+
+![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/525a77f0-48c7-468c-a2bf-89d0cff0cf47)
+
+```sh
+#!/bin/sh
+
+# Set the background image with feh
+# feh --bg-scale <image_path>
+
+feh --bg-scale /media/lcaohoanq/MULTIMEDIA/graphics/wallpaper/MacOS/ipad/ipad-air-2020-2560x1440-dark-abstract-23518.jpg
+```
+
+- Import to `bspwmrc`
+
+```
+![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/4eb7fceb-318f-4675-972c-c070b1e872ba)
+```
+
+- Reload
+```bash
+reloadbspwm #i have assigned the alias above
+```
 
 # Compton vs Picom
 
