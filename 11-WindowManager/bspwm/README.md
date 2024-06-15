@@ -80,3 +80,19 @@ sudo apt install feh
 ```bash
 rofi -show drun
 ```
+
+# Wifi
+> nmcli (NetworkManager Command-Line Interface)
+
+- To list available WiFi networks, open a terminal and use:
+```bash
+nmcli device wifi list
+```
+
+- To connect to a WiFi network, use:
+```bash
+nmcli device wifi connect SSID password PASSWORD
+```
+- Replace SSID and PASSWORD with the actual SSID and password of the network you want to connect to.
+
+![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/c515b322-ac15-4b16-ba69-64417b965885)
