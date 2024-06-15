@@ -177,6 +177,27 @@ bash ~/.config/polybar/launch.sh --panels
 
 ![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/9ccff217-2eca-4648-bd0b-99e65137d75a)
 
+- Error with mpd
+```bash
+sudo apt install mpd
+sudo systemctl status mpd #inactive
+sudo systemctl enable mpd
+sudo systemctl start mpd #active
+```
+
+- Add startup script to the `bspwmrc`
+
+```bash
+# Start MPD service
+systemctl --user start mpd
+
+# polybar
+~/.config/polybar/launch.sh --cuts
+```
+
+![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/f2f66dcd-ad77-44bc-8f66-6fae81acf4f2)
+
+- Reload bspwm
 
 # Rofi
 > https://github.com/w8ste/Tokyonight-rofi-theme
