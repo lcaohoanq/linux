@@ -56,6 +56,45 @@ Then specify windows and workspaces rules . When settings rules you may need to 
 ```
 
 # External Screen configuration
+- Show all external output connection
+```bash
+xrandr --query
+```
+
+![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/2a1465f7-62fd-4c66-ae94-817ebcf9bb21)
+
+```bash
+xrandr --listmonitors
+```
+
+![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/9b99abe0-c190-4a6b-a1a2-f3b4f7ee5b63)
+
+- I want to set the DP-1-8 is my primary at the left and HDMI-1 at the right
+- Create `monitor_setup.sh` with the configuration below
+```bash
+nvim ~/.config/bspwm/monitor_setup.sh
+```
+
+![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/9543ef69-7bfc-4764-a63a-b9fda18a4bf9)
+
+- Change mode to executable
+
+```bash
+chmod +x ~/.config/bspwm/monitor_setup.sh
+```
+
+- Import the `monitor_setup.sh` to `bspwmrc`
+
+![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/4eb7fceb-318f-4675-972c-c070b1e872ba)
+
+- Reload
+
+```bash
+bspc wm -r
+
+# more convenience i assign the alias for this key
+echo "alias reloadbspwm='bspc wm -r'" >> ~/.bashrc
+```
 
 # Screen background
 ```bash
