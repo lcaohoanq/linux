@@ -169,6 +169,13 @@ nmcli device wifi connect SSID password PASSWORD
 
 ![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/c515b322-ac15-4b16-ba69-64417b965885)
 
+- Alias
+
+```bash
+echo "alias wifi='nmcli device wifi list'" >> ~/.bashrc
+source ~/.bashrc
+```
+
 # Bluetooth
 
 ## 1. GUI
