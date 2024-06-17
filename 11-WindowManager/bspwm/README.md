@@ -1,4 +1,10 @@
-Ref: https://medium.com/tech-notes-and-geek-stuff/installing-bspwm-on-debian-fd6a315f6903
+# My bspwm
+
+![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/69b104c6-f9f9-41ea-a79d-f47b1b02852c)
+
+![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/bb3ee517-fb7f-405f-b8ff-4c06b7acc206)
+
+![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/c8915e91-7263-469d-9ccb-1ee3ab84bb6d)
 
 # Installation
 ```bash
