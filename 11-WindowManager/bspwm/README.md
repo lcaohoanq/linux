@@ -6,6 +6,8 @@
 
 ![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/c8915e91-7263-469d-9ccb-1ee3ab84bb6d)
 
+![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/6a3148a1-2d8e-43b4-92a9-0a48ee8c012d)
+
 # Installation
 ```bash
 sudo apt install bspwm sxhkd polybar compton rofi dunst nitrogen i3lock redshift cmus ranger
