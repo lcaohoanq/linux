@@ -1,12 +1,20 @@
-# My bspwm
+# Light
+
+![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/c8915e91-7263-469d-9ccb-1ee3ab84bb6d)
 
 ![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/69b104c6-f9f9-41ea-a79d-f47b1b02852c)
 
 ![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/bb3ee517-fb7f-405f-b8ff-4c06b7acc206)
 
-![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/c8915e91-7263-469d-9ccb-1ee3ab84bb6d)
-
 ![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/6a3148a1-2d8e-43b4-92a9-0a48ee8c012d)
+
+# Dark
+
+![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/350d7375-f3ad-4005-82e8-7ba8ff8802c0)
+
+![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/9dfd2207-dcfd-4b09-835c-882f87804e24)
+
+![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/7130a4e1-47a4-4dd3-bad7-ede8991733e4)
 
 # Installation
 ```bash
