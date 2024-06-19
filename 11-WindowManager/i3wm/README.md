@@ -12,8 +12,8 @@
 
 ![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/cb5aa0a9-abf3-4dea-95df-6e7037ec1596)
 
-![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/315964e1-224d-44ab-b6fa-ec9d9e558b7d)
-
-![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/ad81ec97-00df-4c6f-93f1-c9b1b95a4e2f)
+![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/3dc6b924-c9a7-4d02-9eea-0e94940a489e)
 
 ![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/effb83e7-a0f2-4381-b32e-030cb707c92c)
+
+![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/e4a85b78-13a1-4c55-8815-42876b0094be)
