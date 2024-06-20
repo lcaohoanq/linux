@@ -8,3 +8,8 @@
 - I had decided to move to Debian KDE Plasma (after watching the comparison video of some guys on Youtube), which was overwhelming with the ability to customize KDE features, and it's more lightweight than Gnome xD
 
 - XFCE seems to fit with my X220 (4GB, 128GB 2.5inch SSD, i5 2th) but it lacks the functions that I need
+
+[Update: 20 June 24]: Seem i have fall in love with the ricing process, i'm using bspwm and i3 now :) should i move to Arch with Hyperland xD
+
+# my dotfile there: 
+> https://github.com/lcaohoanq/dotfiles
