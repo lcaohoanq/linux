@@ -42,6 +42,7 @@ flatpak install flathub com.mongodb.Compass
 ```
 
 - azure
+### Arch
 - https://www.deanthomson.com/blog/microsoft-sql-server-on-arch-linux/
 ```zsh
 mkdir ~/aur
@@ -64,6 +65,10 @@ systemctl status mssql-server.service
 ```zsh
 sudo /opt/mssql/bin/mssql-conf setup
 ```
+
+![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/3c019844-8f2d-4dff-ae4f-a880e6e86aff)
+
+### Debian
 
 - mysql
   
