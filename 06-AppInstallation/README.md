@@ -41,7 +41,31 @@ flatpak install flathub org.videolan.VLC
 flatpak install flathub com.mongodb.Compass
 ```
 
-- azure, mysql
+- azure
+- https://www.deanthomson.com/blog/microsoft-sql-server-on-arch-linux/
+```zsh
+mkdir ~/aur
+cd ~/aur
+git clone https://aur.archlinux.org/mssql-server.git
+git clone https://aur.archlinux.org/msodbcsql.git
+git clone https://aur.archlinux.org/mssql-tools.git
+```
+```zsh
+cd ~/aur/mssql-server
+makepkg -sirc
+cd ~/aur/msodbcsql
+makepkg -sirc
+cd ~/aur/mssql-tools
+makepkg -sirc
+```
+```zsh
+systemctl status mssql-server.service
+```
+```zsh
+sudo /opt/mssql/bin/mssql-conf setup
+```
+
+- mysql
   
 - chrome
 ```bash
