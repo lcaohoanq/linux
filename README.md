@@ -11,5 +11,7 @@
 
 [Update: 20 June 24]: Seem i have fall in love with the ricing process, i'm using bspwm and i3 now :) should i move to Arch with Hyperland xD
 
+[Update: 24 June 24]: Back to using Gnome Debian (there some issue with my KDE + bspwm), but another session still bspwm xD
+
 # my dotfile there: 
 > https://github.com/lcaohoanq/dotfiles
