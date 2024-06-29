@@ -9,6 +9,27 @@
 ![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/b6792e97-f792-412b-9459-757921ba3805)
 - `ranger` : GUI terminal file navigation
 ![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/55fcb569-c56c-458b-9587-3b85b6f653f7)
+  - config ranger can preview text, image, video
+  ```bash
+  # Debian
+
+  ```
+
+  ```bash
+  # Arch
+  sudo pacman -S w3m mpv
+
+  # this command will generate the ranger configuration ~/.config/ranger
+  ranger --copy-config=all
+
+  # edit file rc.conf
+  nano ~/.config/ranger/rc.conf
+  ```
+  ```bash
+  set preview_images_method kitty
+  set preview_images true 
+  set show_hidden true
+  ```
 - `duf` : better `du`
 ![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/b016e577-4caf-4249-ad8d-c19d5b0fc227)
 - `byobu` : more enhancements of tmux
