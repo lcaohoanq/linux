@@ -116,6 +116,12 @@ nvm list
 nvm use 12.7.0
 ```
 
+- thunar file manager
+```bash
+#Arch
+sudo pacman -S thunar tumbler ffmpegthumbnailer tumbler-extra-thumbnailers 
+```
+
 - byobu
 ```bash
 sudo apt install byobu
