@@ -17,7 +17,7 @@
 
   ```bash
   # Arch
-  sudo pacman -S w3m mpv
+  sudo pacman -S w3m mpv ueberzug
 
   # this command will generate the ranger configuration ~/.config/ranger
   ranger --copy-config=all
