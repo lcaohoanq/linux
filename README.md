@@ -19,3 +19,6 @@
 **[Update 30 June 24]**: I have moved to Arch with Hyprland, my first time using Arch, and it's so fun to rice my system xD
 
 > https://github.com/lcaohoanq/hypr-arch-dotfiles/
+
+![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/67567ea6-ef1c-4f92-8dd9-98979f1ba4e6)
+
