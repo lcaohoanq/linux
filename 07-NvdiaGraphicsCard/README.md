@@ -8,3 +8,5 @@ sudo apt install nvidia-detect
 nvidia-detect
 sudo apt install nvidia-driver
 ```
+
+- I will buy AMD GPU next time, Nvidia is not friendly with Linux
