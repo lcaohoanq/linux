@@ -53,6 +53,12 @@
   ```
 - `ytfzf`: playing youtube video with terminal
   - ref: https://www.makeuseof.com/watch-youtube-videos-in-linux-terminal/
+ # Arch
+```bash
+yay -S ytfzf yt-dlp
+```
+
+ # Debian
   ```bash
   # Installation
   sudo apt install jq curl mpv fzf
