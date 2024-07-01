@@ -7,7 +7,7 @@
 - Arch
 
 ```bash
-sudo pacman -S thunar tumbler ffmpegthumbnailer tumbler-extra-thumbnailers
+yay -S thunar tumbler ffmpegthumbnailer tumbler-plugins-extra
 ```
 
 - Debian
