@@ -38,6 +38,10 @@ sudo dpkg -i libssl1.1_1.1.1f-1ubuntu2.22_amd64.deb
 - https://www.deanthomson.com/blog/microsoft-sql-server-on-arch-linux/
 
 ```bash
+yay -S libldap24
+```
+
+```bash
 mkdir ~/aur
 cd ~/aur
 git clone https://aur.archlinux.org/mssql-server.git
