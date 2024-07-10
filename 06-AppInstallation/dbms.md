@@ -83,3 +83,8 @@ sudo snap install azuredatastudio
 ```zsh
 yay -S azuredatastudio-bin
 ```
+- If have error conflict with visual-studio-code-bin-debug (you have installed vscode before)
+```zsh
+sudo pacman -R visual-studio-code-bin-debug
+```
+- Re-install again
