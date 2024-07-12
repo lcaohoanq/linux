@@ -7,13 +7,13 @@
 - Arch
 
 ```bash
-yay -S thunar tumbler ffmpegthumbnailer tumbler-plugins-extra
+yay -S thunar tumbler ffmpegthumbnailer tumbler-plugins-extra xfce4-settings thunar-archive-plugin
 ```
 
 - Debian
 
 ```bash
-sudo apt install tumbler tumbler-plugins-extra ffmpegthumbnailer
+sudo apt install tumbler tumbler-plugins-extra ffmpegthumbnailer xfce4-settings
 ```
 
 # Dolphin
