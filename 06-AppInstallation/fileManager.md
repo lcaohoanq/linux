@@ -13,7 +13,7 @@ yay -S thunar tumbler ffmpegthumbnailer tumbler-plugins-extra xfce4-settings thu
 - Debian
 
 ```bash
-sudo apt install tumbler tumbler-plugins-extra ffmpegthumbnailer xfce4-settings
+sudo apt install thunar tumbler tumbler-plugins-extra ffmpegthumbnailer xfce4-settings
 ```
 
 # Dolphin
