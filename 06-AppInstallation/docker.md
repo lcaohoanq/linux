@@ -38,6 +38,9 @@ https://desktop.docker.com/linux/main/amd64/149282/docker-desktop-4.30.0-amd64.d
 systemctl --user start docker-desktop
 ```
 
+- In Linux, Docker Desktop require some stuff to login, following this
+https://docs.docker.com/desktop/get-started/#credentials-management-for-linux-users
+
 ### Docker Engine
 
 ```bash
