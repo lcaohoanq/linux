@@ -1,4 +1,17 @@
-# Nvim
+# Nvim 
+
+## Install
+- LazyVim require v10 above to install 
+- 
+- Bug:
+```bash
+Error detected while processing User Autocommands for "VeryLazy":
+No C compiler found! "cc", "gcc", "clang", "cl", "zig" are not executable.
+```
+
+```
+sudo apt install build-essential
+```
 
 - Vim has 3 modes: `Normal`, `Insert`, `Visual`
 - Default Nvim/Vim start with `Normal` Mode, we switch to `Insert` Mode by type any text on keyboard one time, vice versa we need to type `Esc` keyboard
