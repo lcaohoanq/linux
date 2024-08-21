@@ -1,3 +1,11 @@
+# Xampp
+
+- https://sourceforge.net/projects/xampp/
+
+```bash
+./
+```
+
 # [Screen capture]
 
 - Defautl in KDE using Spectacle but it too anoying when capture and save image to clipboard that need to many steps, so i decided to use `Flameshot` for the alternative
