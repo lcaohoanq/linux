@@ -29,8 +29,8 @@ sudo apt install ./libldap-2.4-2_2.4.47+dfsg-3+deb10u7_amd64.deb
 
 ```bash
 #1.1
-wget http://nz2.archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1f-1ubuntu2.22_amd64.deb
-sudo dpkg -i libssl1.1_1.1.1f-1ubuntu2.22_amd64.deb
+#1.1wget http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1f-1ubuntu2.23_amd64.deb
+sudo dpkg -i libssl1.1_1.1.1f-1ubuntu2.23_amd64.deb
 ```
 
 - Arch
