@@ -1,3 +1,26 @@
+# Chrome
+
+```zsh
+yay -S google-chrome
+```
+
+- google-chrome not found in terminal
+- 
+```zsh
+# list
+yay -Qs google-chrome
+
+# find where installed
+yay -Ql google-chrome | grep bin
+
+# google-chrome /opt/google/chrome/v8_context_snapshot.bin
+# google-chrome /usr/bin/
+# google-chrome /usr/bin/google-chrome-stable
+
+# link with command google-chrome
+sudo ln -s /usr/bin/google-chrome-stable /usr/local/bin/google-chrome
+```
+
 # Xampp
 
 - https://sourceforge.net/projects/xampp/
