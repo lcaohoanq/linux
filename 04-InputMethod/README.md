@@ -14,6 +14,8 @@ sudo apt install ibus-unikey
 sudo apt install ibus-mozc mozc-utils-gui # Japanese
 ```
 
+- Logout to takes effect
+
 ## 2. KDE Plasma
 
 ```bash
