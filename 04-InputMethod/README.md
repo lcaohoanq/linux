@@ -3,6 +3,12 @@
 - I'm using Ibus with 2 additional language is Vietnamese and Japanese (English is always have there)
 
 ## 1. Gnome
+- https://minhng.info/tips/unikey-ubuntu-2204.html
+- https://askubuntu.com/questions/1407560/switching-language-by-alt-shift-after-update-from-ubuntu-22-04-beta-to-release: switch to next input source -> CTRL + Alt + A (my favorite shortcut)
+
+```bash
+sudo apt install ibus-unikey
+```
 
 ## 2. KDE Plasma
 
