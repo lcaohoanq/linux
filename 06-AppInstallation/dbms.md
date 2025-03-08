@@ -29,6 +29,12 @@ sudo apt install ./libldap-2.4-2_2.4.47+dfsg-3+deb10u7_amd64.deb
 
 - https://ubuntu.pkgs.org/20.04/ubuntu-updates-main-amd64/libssl1.1_1.1.1f-1ubuntu2.23_amd64.deb.html
 
+```bash
+# 1.1
+wget       http://ftp.de.debian.org/debian/pool/main/o/openssl/libssl1.1_1.1.1w-0+deb11u1_amd64.deb
+sudo dpkg -i ./libssl1.1_1.1.1w-0+deb11u1_amd64.deb
+```
+
 - Arch
 
 - https://www.deanthomson.com/blog/microsoft-sql-server-on-arch-linux/
