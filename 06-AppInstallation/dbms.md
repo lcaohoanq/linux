@@ -35,6 +35,19 @@ wget       http://ftp.de.debian.org/debian/pool/main/o/openssl/libssl1.1_1.1.1w-
 sudo dpkg -i ./libssl1.1_1.1.1w-0+deb11u1_amd64.deb
 ```
 
+- If meet the error lack of lib 2.5
+
+![image](https://github.com/user-attachments/assets/259f901d-b57f-4f48-b539-e1dc0ae1885e)
+
+```bash
+wget http://ftp.de.debian.org/debian/pool/main/o/openldap/libldap-2.5-0_2.5.13+dfsg-5_amd64.deb
+sudo dpkg -i ./libldap-2.5-0_2.5.13+dfsg-5_amd64.deb
+
+sudo systemctl restart mssql-server
+ldd /opt/mssql/bin/sqlservr
+systemctl status mssql-server --no-pager
+```
+
 - Arch
 
 - https://www.deanthomson.com/blog/microsoft-sql-server-on-arch-linux/
