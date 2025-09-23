@@ -68,6 +68,28 @@
     # show except the pattern, directories only
     tree -I "node_modules" -D
     ```
+  - **grep**: The grep command in Linux is a powerful utility used for searching plain-text data sets for lines that match a regular expression or a fixed string. It stands for "global regular expression print."
+    ```bash
+    # You can use grep to filter the output of apt list and only show the lines that contain "files". For example:
+
+    sudo apt list 2>/dev/null | grep files
+
+
+    # Explanation:
+    # sudo apt list → lists all available packages.
+    # 2>/dev/null → hides the warning messages like Listing... Done
+    # grep files → shows only lines containing "files".
+    
+    # If you want case-insensitive search (match Files, FILES, etc.):
+    
+    sudo apt list 2>/dev/null | grep -i files
+
+    # | is pipe operator: It takes the output of the command on the left and sends it as input to the command on the right
+
+    # If you just want to count how many lines match "files", pipe the result to wc -l:
+    sudo apt list 2>/dev/null | grep files | wc -l
+    ```
+    
     
 - Power Management
 
