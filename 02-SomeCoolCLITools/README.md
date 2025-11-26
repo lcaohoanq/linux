@@ -1,4 +1,9 @@
 ## [Some cool CLI tools]
+
+```zsh
+sudo apt-get install bat eza fzf fastfetch htop btop duf xclip
+```
+
 - Ref: https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6
 
 > My favorite:
