@@ -64,6 +64,9 @@ yay -S ytfzf yt-dlp
 ```
 
  # Debian
+
+- Install ytfzf
+ 
   ```bash
   # Installation
   sudo apt install jq curl mpv fzf
