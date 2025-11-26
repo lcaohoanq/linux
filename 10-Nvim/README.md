@@ -1,6 +1,6 @@
 # Nvim 
 
-## Install (https://neovim.io/doc/install/)
+## Install neovim aka nvim (https://neovim.io/doc/install/)
 ```zsh
 # Pre-built archives
 # The Releases page provides pre-built binaries for Linux systems.
@@ -13,6 +13,8 @@ sudo tar -C /opt -xzf nvim-linux-x86_64.tar.gz
 ```zsh
 export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
 ```
+
+## Install Lazyvim (https://www.lazyvim.org/installation)
 
 - LazyVim require v10 above to install 
 - Bug:
