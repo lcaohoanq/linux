@@ -22,3 +22,4 @@
 
 ![image](https://github.com/lcaohoanq/Linux-Issues/assets/136492579/67567ea6-ef1c-4f92-8dd9-98979f1ba4e6)
 
+**[Update 30 Nov 25]**: I decide to stay with Debian, currently using the Debidan 13 Trixe
