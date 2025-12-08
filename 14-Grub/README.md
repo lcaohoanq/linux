@@ -1,3 +1,26 @@
+# Minegrub
+
+- Shoutout to Lxtharia with this grub theme custom: https://github.com/Lxtharia/minegrub-theme
+- How to install
+
+```zsh
+cd Downloads &&
+
+git clone https://github.com/Lxtharia/minegrub-theme.git &&
+ 
+cd minegrub-theme &&
+
+# Im just too lazy too config just apply the install, high risk high return boys <3
+sudo ./install_theme.sh
+```
+
+- Apply the change and reboot
+
+```zsh
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+```
+
+
 - In case 2 OS are setting up and runing
 
 ```bash
