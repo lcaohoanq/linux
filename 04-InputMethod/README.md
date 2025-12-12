@@ -18,6 +18,13 @@ sudo apt install ibus-mozc mozc-utils-gui # Japanese
 
 ## 2. KDE Plasma
 
+### fcitx (recommend)
+```zsh
+sudo apt install fcitx5 libfcitx5-qt-data fcitx5-config-qt fcitx5-unikey fcitx5-material-color
+```
+
+### ibus
+
 ```bash
 sudo apt update
 sudo apt install ibus ibus-unikey ibus-anthy
