@@ -33,6 +33,28 @@ sudo apt install build-essential
 
 - https://www.tutorialspoint.com/vim/vim_navigating.htm
 
+## Install LazyExtras 
+
+- https://www.lazyvim.org/extras
+- Error fd, rg
+
+- https://github.com/sharkdp/fd
+
+```zsh
+# Install fd
+sudo apt-get install fd-find
+fdfind --version
+# symlink (using fd instead fd-find)
+sudo ln -s $(which fdfind) /usr/local/bin/fd\n
+```
+
+- https://github.com/BurntSushi/ripgrep
+
+```zsh
+sudo apt install ripgrep
+rg --version
+```
+
 ## Normal Mode
 
 ### 1. Basic Navigation
