@@ -18,6 +18,8 @@ sudo pacman -S openssh
 eval "$(ssh-agent -s)"
 ```
 
+- Notice that if the .pub key have differ name need to specify the absolute path ssh-add /home/username/.ssh/id_xxxxx
+
 ```bash
 ssh-add id_xxxxx
 
