@@ -1,6 +1,15 @@
 # Nvim 
 
 ## Install neovim aka nvim (https://neovim.io/doc/install/)
+
+- ripgrep, fd-find
+```
+sudo apt install ripgrep fd-find
+# symlink to fd
+sudo ln -s $(which fdfind) /usr/local/bin/fd
+fd --version
+```
+
 ```zsh
 # Pre-built archives
 # The Releases page provides pre-built binaries for Linux systems.
