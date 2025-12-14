@@ -66,6 +66,9 @@ UUID=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx /mnt/ntfs1 ntfs-3g defaults,rw 0 2
 
 # NTFS partition 2
 UUID=yyyyyyyy-yyyy-yyyy-yyyy-yyyyyyyyyyyy /mnt/ntfs2 ntfs-3g defaults,rw 0 2
+
+# ext4 partition 3
+UUID=yyyyyyyy-yyyy-yyyy-yyyy-yyyyyyyyyyyy /media/data  ext4  defaults  0  2
 ```
 
 - /mnt/ntfs1, /mnt/ntfs2: mount point (can be create manually or auto with
